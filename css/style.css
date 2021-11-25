@@ -1,0 +1,14 @@
+.img_top{
+    background-image: url("../img/jumbo-bg.png");
+    min-height: 600px;
+    object-fit: cover;
+}
+
+.select_title_one {
+    border: 2px solid blue;
+}
+
+.select-title {
+    height: 125px;
+    border-radius: 25px;
+}
