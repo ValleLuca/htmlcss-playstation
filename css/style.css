@@ -1,7 +1,8 @@
 .img_top{
     background-image: url("../img/jumbo-bg.png");
     min-height: 600px;
-    object-fit: cover;
+    background-position: top center;
+    background-size: cover;
 }
 
 .select_title_one {
@@ -38,4 +39,8 @@
 .ms_box_new {
     height: 200px;
     border-radius: 25px;
+}
+
+.ms_box {
+    width: 50px;
 }
