@@ -23,5 +23,14 @@
 }
 
 .ms_playstation_height {
-    height: 800px;
+    height: 900px;
+}
+
+.ms_height_hardware {
+    height: 200px;
+}
+
+.ms_background_it_takes_two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    min-height: 950px;
 }
