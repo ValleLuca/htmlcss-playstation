@@ -12,3 +12,16 @@
     height: 125px;
     border-radius: 25px;
 }
+
+.check {
+    height: 15px;
+}
+
+.ms_nav_hover:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.ms_playstation_height {
+    height: 800px;
+}
