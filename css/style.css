@@ -34,13 +34,11 @@
 .ms_background_it_takes_two {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     min-height: 950px;
+    background-position: top center;
+    background-size: cover;
 }
 
 .ms_box_new {
     height: 200px;
     border-radius: 25px;
-}
-
-.ms_box {
-    width: 50px;
 }
