@@ -42,3 +42,14 @@
     height: 200px;
     border-radius: 25px;
 }
+
+
+
+.ms_transform {
+
+    transition: 1s;
+}
+
+.ms_transform:hover {
+    transform: translate( 0, -15px );
+}
