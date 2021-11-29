@@ -53,3 +53,13 @@
 .ms_transform:hover {
     transform: translate( 0, -15px );
 }
+
+.ms_opacity {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.ms_opacity:hover {
+    opacity: 1;
+}
