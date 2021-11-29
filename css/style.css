@@ -71,3 +71,8 @@ footer {
 .ms_pslogo_height {
     height: 50px;
 }
+
+.ms_effect_shadow:hover {
+    box-shadow: 0 0 5px 3px rgba(158, 142, 142, 0.67);
+    cursor: pointer;
+}
