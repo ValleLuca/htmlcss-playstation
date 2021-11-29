@@ -11,6 +11,16 @@
     <title>Sito Sony Brutto</title>
 </head>
 <body>
+  <!-- header sony -->
+  <section class="bg-dark">
+    <div class="container-fluid">
+      <div class="row justify-content-end">
+        <div class="col-1 p-3">
+          <img src="img/sony_logo.svg">
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- navbar -->
     <section>
@@ -25,7 +35,7 @@
             <li class="nav-item dropdown position-static mx-2">
               <div class="d-flex align-items-center">
                 <a class="nav-link fw-bold ms_nav_hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
-                <img class="check ms_nav_hover" src="img/chevron-down-solid.svg">
+                <img class="check" src="img/chevron-down-solid.svg">
                 <ul class="dropdown-menu w-100 border-0 m-0 rounded-0" aria-labelledby="navbarDropdown">
                   <li class="d-flex justify-content-center">
                     <div class="ms_effect_shadow text-center">
@@ -51,9 +61,9 @@
               </div>
             </li>
 
-            <li class="nav-item dropdown position-static mx-2 ms_nav_hover">
+            <li class="nav-item dropdown position-static mx-2">
               <div class="d-flex align-items-center">
-                <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
+                <a class="nav-link fw-bold ms_nav_hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
                 <img class="check text-secondary" src="img/chevron-down-solid.svg">
                 <ul class="dropdown-menu w-100 border-0 m-0 rounded-0" aria-labelledby="navbarDropdown">
                   <li class="d-flex justify-content-center">
@@ -82,7 +92,7 @@
 
             <li class="nav-item dropdown position-static mx-2 ms_nav_hover">
               <div class="d-flex align-items-center">
-                <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Software</a>
+                <a class="nav-link fw-bold ms_nav_hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Software</a>
                 <img class="check text-secondary" src="img/chevron-down-solid.svg">
                 <ul class="dropdown-menu w-100 border-0 m-0 rounded-0" aria-labelledby="navbarDropdown">
                   <li class="d-flex justify-content-center">
@@ -111,7 +121,7 @@
 
             <li class="nav-item dropdown position-static mx-2 ms_nav_hover">
               <div class="d-flex align-items-center">
-                <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Novità</a>
+                <a class="nav-link fw-bold ms_nav_hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Novità</a>
                 <img class="check text-secondary" src="img/chevron-down-solid.svg">
                 <ul class="dropdown-menu w-100 border-0 m-0 rounded-0" aria-labelledby="navbarDropdown">
                   <li class="d-flex justify-content-center">
@@ -140,7 +150,7 @@
 
             <li class="nav-item dropdown position-static mx-2 ms_nav_hover">
               <div class="d-flex align-items-center">
-                <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fai acquisti</a>
+                <a class="nav-link fw-bold ms_nav_hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fai acquisti</a>
                 <img class="check text-secondary" src="img/chevron-down-solid.svg">
                 <ul class="dropdown-menu w-100 border-0 m-0 rounded-0" aria-labelledby="navbarDropdown">
                   <li class="d-flex justify-content-center">
@@ -169,7 +179,7 @@
 
             <li class="nav-item dropdown position-static mx-2 ms_nav_hover">
               <div class="d-flex align-items-center">
-                <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Supporto</a>
+                <a class="nav-link fw-bold ms_nav_hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Supporto</a>
                 <img class="check text-secondary" src="img/chevron-down-solid.svg">
                 <ul class="dropdown-menu w-100 border-0 m-0 rounded-0" aria-labelledby="navbarDropdown">
                   <li class="d-flex justify-content-center">
@@ -198,10 +208,10 @@
 
           </ul>
 
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
             <li class="nav-item dropdown position-static mx-2 ms_nav_hover">
               <div class="d-flex align-items-center">
-                <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">My PlayStation</a>
+                <a class="nav-link fw-bold ms_nav_hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">My PlayStation</a>
                 <img class="check text-secondary" src="img/chevron-down-solid.svg">
                 <ul class="dropdown-menu w-100 border-0 m-0 rounded-0" aria-labelledby="navbarDropdown">
                   <li class="d-flex justify-content-center">
@@ -227,13 +237,13 @@
                 </ul>
               </div>
             </li>
-            <li>
-              <a href="#">Accedi</a>
-            </li>
-            <li>
-              <i class="bi bi-search"></i>
-            </li>
           </ul>
+          <div class="d-flex align-items-center justfy-content-center">
+            <a class="px-4 py-3 text-light text-decoration-none bg-primary ms_button_hover" href="#">Accedi</a>
+          </div>
+          <div class="d-flex align-items-center justfy-content-center px-2">
+            <i class="bi bi-search"></i>
+          </div>
         </div>
         </div>
     </nav>
@@ -247,7 +257,7 @@
           <img class="img-fluid" src="img/returnal-hero-banner-logo.png">
           <h2 class="fs-1">Rompi il cerchio</h2>
           <p class="fs-4">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
-          <button type="button" class="btn btn-danger">Primary</button>
+          <button type="button" class="btn rounded-pill btn-danger">Primary</button>
         </div>
       </div>
     </div>
@@ -310,6 +320,7 @@
         <div class="col-6">
            <h2>Console PlayStation 5</h2>
            <p>Sperimentale la nuova generazione di incredibili giochi PlayStation.</p>
+           <a class="px-4 py-3 text-light text-decoration-none bg-primary ms_button_hover" href="#">Accedi</a>
         </div>
         <div class="col-6">
           <div>
@@ -366,7 +377,7 @@
           <img class="my-5 img-fluid" src="img/it-takes-two-logo.png">
           <h2 class="fs-1">Un'avventura<br>cooperativa<br>selvaggia ti attende</h2>
           <p class="fs-5">Trova un amica e partire insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
-          <button type="button" class="btn btn-danger">Primary</button>
+          <button type="button" class="btn rounded-pill btn-danger">Primary</button>
         </div>
       </div>
     </div>
@@ -454,19 +465,19 @@
             <img class="img-fluid" src="img/ps4-slim-homepage-image-block.jpg">
             <h1>PlayStation 4</h1>
             <p class="fs-2 text-muted">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
-            <a href="#" class="button-blue">Scopri di più</a>
+            <a class="px-4 py-3 text-light text-decoration-none bg-primary ms_button_hover" href="#">Scopri di più</a>
           </div>
           <div class="col">
             <img class="img-fluid" src="img/double11-202010-tw-psvr.jpg">
             <h1>PlayStation 4</h1>
             <p class="fs-2 text-muted">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
-            <a href="#" class="button-blue">Scopri di più</a>
+            <a class="px-4 py-3 text-light text-decoration-none bg-primary ms_button_hover" href="#">Scopri di più</a>
           </div>
           <div class="col">
             <img class="img-fluid" src="img/dualshock-4-listing-thumb.jpg">
             <h1>PlayStation 4</h1>
             <p class="fs-2 text-muted">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
-            <a href="#" class="button-blue">Scopri di più</a>
+            <a class="px-4 py-3 text-light text-decoration-none bg-primary ms_button_hover" href="#">Scopri di più</a>
           </div>
         </div>
       </div>
@@ -479,6 +490,7 @@
         <div class="col">
           <img class="img-fluid" src="img/ps-plus-logo.png">
            <p class="fs-3">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+           <a class="px-4 py-3 text-primary text-decoration-none bg-light ms_button_hover" href="#">Esplora PlayStation Plus</a>
         </div>
         <div class="col">
           <div>
@@ -513,12 +525,13 @@
    </section>
 
    <!-- PlayStation Now -->
-   <section class="bg-primary">
+   <section class="bg-dark">
      <div class="container">
       <div class="row row-cols-xxl-2 justify-content-center align-items-center">
         <div class="col">
           <img class="img-fluid pb-5" src="img/ps-now-logo-two-column.png">
-           <p class="fs-3 ps-5">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+           <p class="fs-3 ps-2 text-light">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+           <a class="px-4 py-3 text-dark text-decoration-none bg-light ms_button_hover" href="#">Esplora PlayStation Now</a>
         </div>
         <div class="col">
             <img class="img-fluid" src="img/ps-now-april-featured-image-block.png">
