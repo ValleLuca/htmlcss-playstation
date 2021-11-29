@@ -89,3 +89,28 @@ footer {
     border: 1px red solid;
 
 }
+
+@media screen and (max-width:576px) {
+
+    .ms_display_none {
+        display: none;
+    }
+}
+
+.ms_background_now {
+    background-color: rgba(22,28,59,255);
+}
+
+.ms_background_plus {
+    background-color: rgba(190,189,186,255);
+}
+
+.ms_img_size {
+    height: 100%;
+}
+
+.ms_navbar_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
